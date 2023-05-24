@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71fccc59-59ba-46c0-9a0f-84fac9132e90" name="Changes" comment="Exception added added. OrderRepository added">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/OrderRepository.java" afterDir="false" />
+    <list default="true" id="71fccc59-59ba-46c0-9a0f-84fac9132e90" name="Changes" comment="shopservice class implemented">
+      <change beforePath="$PROJECT_DIR$/src/test/java/repository/ProductRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/repository/ProductRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +120,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684916624310</updated>
-      <workItem from="1684916625950" duration="7124000" />
+      <workItem from="1684916625950" duration="9107000" />
     </task>
     <task id="LOCAL-00001" summary="new class added">
       <created>1684916997397</created>
@@ -152,7 +150,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684923737925</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="order changed to lIST">
+      <created>1684924698992</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684924698992</updated>
+    </task>
+    <task id="LOCAL-00006" summary="shopservice class implemented">
+      <created>1684925548817</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684925548817</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,7 +175,9 @@
     <MESSAGE value="create Productrepository &amp; test case for empty product list" />
     <MESSAGE value="order class created" />
     <MESSAGE value="Exception added added. OrderRepository added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exception added added. OrderRepository added" />
+    <MESSAGE value="order changed to lIST" />
+    <MESSAGE value="shopservice class implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="shopservice class implemented" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
