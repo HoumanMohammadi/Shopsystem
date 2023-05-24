@@ -1,5 +1,6 @@
 package repository;
 
+import exception.ProductNotFoundException;
 import model.Order;
 import model.Product;
 
@@ -20,5 +21,15 @@ public class OrderRepository {
 
     public List<Order> list() {
         return orders;
+    }
+
+    public Order getProducts(String idOfRequestedProduct) {
+        for (Order singleOrderFromList: orders){
+            if (singleOrderFromList.getID().equals(idOfRequestedProduct)){
+                return singleOrderFromList;
+            }
+        }
+        //if searched but not found should throw an exception
+        throw new ProductNotFoundException(idOfRequestedProduct);
     }
 }

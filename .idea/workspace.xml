@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71fccc59-59ba-46c0-9a0f-84fac9132e90" name="Changes" comment="order class created">
+    <list default="true" id="71fccc59-59ba-46c0-9a0f-84fac9132e90" name="Changes" comment="Exception added added. OrderRepository added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/repository/ProductRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/repository/ProductRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/OrderRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -58,7 +58,22 @@
       <recent name="repository" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProductRepositoryTest.list_WhenProductMapHasOneProduct_shouldReturnOneProduct">
+  <component name="RunManager" selected="JUnit.ProductRepositoryTest">
+    <configuration name="ProductRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Shopsystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="repository" />
+      <option name="MAIN_CLASS_NAME" value="repository.ProductRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProductRepositoryTest.list_WhenProductMapHasOneProduct_shouldReturnOneProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Shopsystem" />
       <extension name="coverage">
@@ -93,8 +108,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProductRepositoryTest.list_WhenProductMapHasOneProduct_shouldReturnOneProduct" />
+        <item itemvalue="JUnit.ProductRepositoryTest" />
         <item itemvalue="JUnit.ProductRepositoryTest.list_WhenProductMapIsEmpty_shouldReturnNoProduct" />
+        <item itemvalue="JUnit.ProductRepositoryTest.list_WhenProductMapHasOneProduct_shouldReturnOneProduct" />
       </list>
     </recent_temporary>
   </component>
@@ -106,7 +122,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684916624310</updated>
-      <workItem from="1684916625950" duration="5652000" />
+      <workItem from="1684916625950" duration="7124000" />
     </task>
     <task id="LOCAL-00001" summary="new class added">
       <created>1684916997397</created>
@@ -129,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684920154646</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Exception added added. OrderRepository added">
+      <created>1684923737925</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684923737925</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,7 +162,8 @@
     <MESSAGE value="new class added" />
     <MESSAGE value="create Productrepository &amp; test case for empty product list" />
     <MESSAGE value="order class created" />
-    <option name="LAST_COMMIT_MESSAGE" value="order class created" />
+    <MESSAGE value="Exception added added. OrderRepository added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exception added added. OrderRepository added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
