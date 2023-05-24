@@ -18,8 +18,10 @@ class ProductRepositoryTest {
         //Given
         //Instance: a concrete object of type
 
-        ProductRepository productRepository= new ProductRepository();
         List<Product> expectedProductList= new ArrayList<>();
+
+        ProductRepository productRepository= new ProductRepository(expectedProductList);
+        //List<Product> expectedProductList= new ArrayList<>();
 
         //When
         List<Product> actualProductList = productRepository.list();
@@ -28,6 +30,26 @@ class ProductRepositoryTest {
         //Then
         assertEquals(actualProductList, expectedProductList);
         assertEquals(expectedListLength, actualProductList.size());
+
+    }
+
+    @Test
+
+    void list_WhenProductMapHasOneProduct_shouldReturnOneProduct(){
+
+        //Given
+        //Instance: a concrete object of type
+
+        Product appleKeyboard = new Product("1", "Apple Keyboard");
+        List<Product> expectedProductList= new ArrayList<>();
+        expectedProductList.add(appleKeyboard);
+        ProductRepository productRepository= new ProductRepository(expectedProductList);
+
+        //When
+        List<Product> actualProductList = productRepository.list();
+
+        //Then
+        assertEquals(actualProductList, expectedProductList);
 
     }
 
