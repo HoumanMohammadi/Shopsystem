@@ -47,9 +47,11 @@ class ProductRepositoryTest {
 
         //When
         List<Product> actualProductList = productRepository.list();
+        int expectedListLength=1;
 
         //Then
         assertEquals(actualProductList, expectedProductList);
+        assertEquals(expectedListLength, actualProductList.size());
 
     }
 
