@@ -11,25 +11,27 @@ import static org.junit.jupiter.api.Assertions.*;
 class ProductRepositoryTest {
 
     //Method + should + when
+    //
     @Test
 
-    void list_WhenProductMapIsEmpty_shouldReturnNoProduct(){
+    void list_WhenProductMapIsEmpty_shouldReturnNoProduct() {
 
         //Given
         //Instance: a concrete object of type
 
-        List<Product> expectedProductList= new ArrayList<>();
+        List<Product> expectedProductList = new ArrayList<>();
 
-        ProductRepository productRepository= new ProductRepository(expectedProductList);
+        ProductRepository productRepository = new ProductRepository(expectedProductList);
         //List<Product> expectedProductList= new ArrayList<>();
 
         //When
         List<Product> actualProductList = productRepository.list();
-        int expectedListLength=0;
+        int expectedListLength = 0;
 
         //Then
         assertEquals(actualProductList, expectedProductList);
         assertEquals(expectedListLength, actualProductList.size());
+    }
 
 
 

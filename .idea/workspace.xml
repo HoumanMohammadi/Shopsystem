@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71fccc59-59ba-46c0-9a0f-84fac9132e90" name="Changes" comment="shopservice class implemented">
+    <list default="true" id="71fccc59-59ba-46c0-9a0f-84fac9132e90" name="Changes" comment="Testcase edited">
+      <change afterPath="$PROJECT_DIR$/src/test/java/repository/OrderRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/repository/ProductRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/repository/ProductRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -31,23 +33,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/hou7man/IdeaProjects/Shopsystem/src/main/java/de/iav/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/hou7man/IdeaProjects/Shopsystem/src/main/java/de/iav/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -56,7 +58,23 @@
       <recent name="repository" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProductRepositoryTest">
+  <component name="RunManager" selected="JUnit.OrderRepositoryTest.list_WhenOrderMapHasOneOrder_shouldReturnOneOrder">
+    <configuration name="OrderRepositoryTest.list_WhenOrderMapHasOneOrder_shouldReturnOneOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Shopsystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="repository" />
+      <option name="MAIN_CLASS_NAME" value="repository.OrderRepositoryTest" />
+      <option name="METHOD_NAME" value="list_WhenOrderMapHasOneOrder_shouldReturnOneOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProductRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Shopsystem" />
       <extension name="coverage">
@@ -106,6 +124,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OrderRepositoryTest.list_WhenOrderMapHasOneOrder_shouldReturnOneOrder" />
         <item itemvalue="JUnit.ProductRepositoryTest" />
         <item itemvalue="JUnit.ProductRepositoryTest.list_WhenProductMapIsEmpty_shouldReturnNoProduct" />
         <item itemvalue="JUnit.ProductRepositoryTest.list_WhenProductMapHasOneProduct_shouldReturnOneProduct" />
@@ -120,7 +139,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684916624310</updated>
-      <workItem from="1684916625950" duration="9107000" />
+      <workItem from="1684916625950" duration="13186000" />
+      <workItem from="1684939757763" duration="22000" />
+      <workItem from="1684939792533" duration="5132000" />
     </task>
     <task id="LOCAL-00001" summary="new class added">
       <created>1684916997397</created>
@@ -164,7 +185,28 @@
       <option name="project" value="LOCAL" />
       <updated>1684925548817</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Testcase edited">
+      <created>1684930271086</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684930271087</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Testcase edited">
+      <created>1684930385920</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684930385920</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Testcase edited">
+      <created>1684958561687</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684958561687</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +219,8 @@
     <MESSAGE value="Exception added added. OrderRepository added" />
     <MESSAGE value="order changed to lIST" />
     <MESSAGE value="shopservice class implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="shopservice class implemented" />
+    <MESSAGE value="Testcase edited" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testcase edited" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
